@@ -1,0 +1,56 @@
+@media screen and (max-width: 720px) {
+  .body {
+    background: linear-gradient(
+      60deg,
+      $tri-color 10%,
+      $primair-color 20%,
+      $primair-background-color 85%
+    );
+    background-repeat: no-repeat;
+  }
+  .box {
+    width: 100%;
+    h1 {
+      text-align: center;
+      color: $tri-background-color;
+      text-shadow: 1px 1px 2px $primair-background-color;
+    }
+    h2 {
+      text-align: center;
+      color: $tri-background-color;
+      text-shadow: 1px 1px 2px $primair-color;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 98%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        color: $primair-color;
+        text-shadow: 1px 1px 2px $primair-background-color;
+        margin-top: 10px;
+      }
+
+      .clipped-text {
+        display: none;
+      }
+      .no-clip,
+      .werkervaring {
+        width: 100%;
+        height: auto;
+        p {
+          color: $primair-background-color;
+          text-shadow: 1px 1px 2px $primair-color;
+        }
+      }
+      .opleiding,
+      .details,
+      .computers {
+        width: 100%;
+      }
+    }
+  }
+}
