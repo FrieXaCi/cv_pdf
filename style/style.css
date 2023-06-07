@@ -96,7 +96,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   color: #f53bd9;
-  background: linear-gradient(60deg, rgb(146, 138, 138) 10%, #f53bd9 20%, #211522 60%);
+  background: linear-gradient(60deg, rgb(146, 138, 138) 20%, #f53bd9 40%, #211522 60%);
   background-repeat: no-repeat;
 }
 
